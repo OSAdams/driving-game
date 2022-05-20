@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section.race-track {
+  background: #6b6b6b;
+}
