@@ -13,6 +13,7 @@ section.race-track {
 div.f1-container {
   width: 250px;
   height: 150px;
+  position: absolute;
 }
 
 img.f1-race-car {
