@@ -11,6 +11,7 @@ let intervalID = null;
 function startF1Racer() {
     let leftPos = f1Racer.offsetLeft;
     f1Racer.style.left = leftPos + 3 + 'px';
+    f1Data.location.x = f1Racer.style.left;
 }
 
 window.addEventListener('keydown', e => {
@@ -22,5 +23,4 @@ window.addEventListener('keydown', e => {
       intervalID = setInterval(startF1Racer, 16);
     }
   };
-  console.log('space was tapped');
 });
