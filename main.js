@@ -55,3 +55,5 @@ function f1RacerControl(e) {
 };
 
 window.addEventListener('keydown', f1RacerControl)
+
+console.log('hello world');
