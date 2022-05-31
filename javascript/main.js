@@ -47,7 +47,7 @@ function f1RacerControl(e) {
     startF1Racer()
     if (intervalID !== null) {
       clearInterval(intervalID)
-      intervalID = setInterval(startF1Racer, 16);
+      intervalID = null;
     } else if (intervalID === null) {
       intervalID = setInterval(startF1Racer, 16);
     }
